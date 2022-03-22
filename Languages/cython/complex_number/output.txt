@@ -1,0 +1,16 @@
+****************************
+*********python*************
+(19999999.9622589+50000000j)
+Runtime of the program is 6.913837432861328 s
+****************************
+*********Cython************
+(19999999.9622589+50000000j)
+Runtime of the program is 5.3208091259002686 s
+****************************
+*Cython with type definition*
+(19999999.9622589+50000000j)
+Runtime of the program is 0.17157244682312012 s
+****************************
+*Cython with only the loop index type definition*
+(19999999.9622589+50000000j)
+Runtime of the program is 4.477035045623779 s

@@ -14,7 +14,8 @@ if __name__ == '__main__':
     print('******no paraellel********')
     start=time.time()
     for i in range(n):
-        print(f(i))
+        f(i)
+        #print(f(i))
         
     end=time.time()
     print(f"Runtime of the program is {end - start} s")
@@ -26,7 +27,7 @@ if __name__ == '__main__':
     for i in range(n):
         p=multiprocessing.Process(target=f,args=[2])
         p.start()
-        print(i)
+        #print(i)
         processes.append(p)
 
     for process in processes:
